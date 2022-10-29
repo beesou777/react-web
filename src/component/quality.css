@@ -1,0 +1,22 @@
+/* .cat{
+    display: flex;
+    padding: 100px  0 0;
+}
+#cat{
+    color: #6415ff;
+}
+.ele{
+    height: 500px;
+    width: 680px;
+    padding-right: 2rem;
+}
+.dog{
+    padding:2rem 3rem;
+}
+
+@media only screen and (max-width:1200px){
+    .cat{
+        display: grid;
+        background-color: #6415ff;
+    }
+} */

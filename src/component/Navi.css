@@ -1,0 +1,40 @@
+.brand{
+    display: flex;
+    align-items: center;
+    border-bottom-width: 0px;
+    font-weight: 900;
+    margin-left: 0px !important;
+    font-size: 1.2rem !important;
+    
+
+}
+.brand img{
+    height: 4rem;
+    margin-left: 33px;
+}
+.axz{
+    color: #333;
+    padding: 0 0 0;
+}
+.axz:hover{
+    color: #6415ff;
+}
+.link{
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.link:hover{
+    color: #6415ff !important;
+}
+
+
+
+
+
+
+
+
+
+  

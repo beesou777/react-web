@@ -1,0 +1,56 @@
+.asd{
+    margin-top: 100px;
+}
+#contact{
+    background: #6415ff;
+    height: 70vh;
+    padding: 100px 0 0 0;
+}
+.hawa{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    color: #fff !important;
+    
+}
+li{
+    list-style: none;
+    display: grid;
+}
+.head{
+    font-size: 1.2rem;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.lee{
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: 600;
+    text-decoration: none;
+    display: grid;
+    padding: 10px 0;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+.tex{
+    color: #fff;
+    font-family: sans-serif;
+    font: 1.2rem;
+}
+.other p{
+    color: #ccc;
+}
+.lee:hover{
+    color: #fff !important;
+}
+@media only screen and (max-width:1200px){
+  .asd{
+    overflow: hidden;
+  }
+    #ooo{
+        padding-bottom: 200px;
+   }
+
+}

@@ -1,0 +1,121 @@
+.cont{
+    display: flex;
+    margin: 0 40px;
+}
+.cont .first span{
+    color:#6415ff;
+}
+.first{
+    
+    padding: 100px 0 100px 0;
+    font-size: 1.8rem;
+}
+.first p{
+    color:#6d5757;
+    font-size: 22px;
+    padding-top: 1.2rem;
+    line-height: 29px;
+
+}
+.first img{
+    margin-top: 2rem;
+    height: 50px;
+    width: 450px;
+    opacity: 30%;
+}
+.second img{
+    height: 600px;
+    width: 600px;
+}
+label{
+    position: relative;
+}
+input{
+    margin-top: 2rem;
+    height: 65px;
+    width: 450px;
+    border-radius: 30px;
+    color: #6d5757;
+    text-align: left;
+    font-size: 1.2rem;
+}
+label button{
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 30px;
+    top: -2.5px;
+    right: 11rem;
+    background-color: #6415ff;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:780px){
+    .cont{
+    display: flex;
+    flex-direction: column;
+    }
+    label{
+        padding: 100px 0 0 0 ;
+        margin-left: 52px;
+        font-size: 2rem;
+    }
+    input{
+        font-size: 1rem !important;
+    }
+    label button{
+       position: relative;
+       top: 2.5px;
+       padding: 10px 10px;
+       right:9rem;
+    }
+   
+}
+
+@media only screen and (max-width:724px){
+   
+    label{
+        padding: 100px 0 0 0 ;
+        margin-left: 0px;
+        font-size: 2rem;
+        
+    }
+    input{
+        font-size: 1rem !important;
+        width: 380px;
+
+    }
+    label button{
+       position: relative;
+       top: 2.4px;
+   
+       right: 142px;
+    }#haha{
+        height: 400px;
+        width: 100%;
+    }
+    #hah{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .cont{
+    display: flex;
+    flex-direction: column;
+    }
+    label{
+        padding: 100px 0 0 0 ;
+        margin-left: 52px;
+        font-size: 2rem;
+    }
+    input{
+        font-size: 1rem !important;
+    }
+    label button{
+       position: relative;
+       top: -4rem;
+       padding: 10px 10px;
+       right:-15rem;
+    }
+}
